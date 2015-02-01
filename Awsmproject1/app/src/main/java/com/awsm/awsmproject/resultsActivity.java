@@ -33,11 +33,7 @@ public class resultsActivity extends ActionBarActivity implements Query.AsyncRes
         mRecyclerView = (RecyclerView)findViewById(R.id.my_recycler_view);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         mRecyclerView.setItemAnimator(new DefaultItemAnimator());
-        try {
-            Log.i("Got Data",STORES.getJSONObject(0).getString("brandOutletName"));
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
+
         String testStore[]={"Orion","Mantri","Garuda"};
         //,"Cosmos","Orion","Mantri","Phoenix","Garuda","Microsoft","Android","Apple","Orion","Mantri","Garuda","Cosmos","Phoenix","Microsoft","Android","Apple"};
         mAdapter= new MyAdapter(testStore,this,STORES);
