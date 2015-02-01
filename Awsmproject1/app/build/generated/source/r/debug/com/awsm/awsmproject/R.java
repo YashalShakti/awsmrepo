@@ -1450,15 +1450,12 @@ containing a value of this type.
         public static final int always=0x7f080016;
         public static final int backspace=0x7f080041;
         public static final int beginning=0x7f080013;
-        public static final int button=0x7f08005a;
         public static final int button0=0x7f080049;
         public static final int button1=0x7f080042;
         public static final int button10=0x7f080050;
         public static final int button11=0x7f080051;
         public static final int button12=0x7f080052;
         public static final int button13=0x7f080053;
-        public static final int button14=0x7f08005b;
-        public static final int button15=0x7f08005c;
         public static final int button2=0x7f080046;
         public static final int button3=0x7f08004a;
         public static final int button4=0x7f080043;
@@ -1470,6 +1467,7 @@ containing a value of this type.
         public static final int buttoncall=0x7f08004e;
         public static final int buttonhash=0x7f08004d;
         public static final int buttonstar=0x7f080045;
+        public static final int call=0x7f08005a;
         public static final int checkbox=0x7f080029;
         public static final int collapseActionView=0x7f080017;
         public static final int decor_content_parent=0x7f08002f;
@@ -1488,9 +1486,11 @@ containing a value of this type.
         public static final int ifRoom=0x7f080018;
         public static final int image=0x7f080023;
         public static final int imageView=0x7f080057;
+        public static final int images=0x7f08005c;
         public static final int linearLayout1=0x7f08004f;
         public static final int listMode=0x7f080009;
         public static final int list_item=0x7f080025;
+        public static final int map=0x7f08005b;
         public static final int middle=0x7f080015;
         public static final int my_recycler_view=0x7f080054;
         public static final int never=0x7f080019;
@@ -1591,6 +1591,8 @@ containing a value of this type.
  API 14 theme customizations can go here. 
          */
         public static final int AppBaseTheme=0x7f0b00e4;
+        /**  Customize your theme here. 
+         */
         public static final int AppTheme=0x7f0b0000;
         public static final int Base_TextAppearance_AppCompat=0x7f0b0001;
         public static final int Base_TextAppearance_AppCompat_Body1=0x7f0b0002;

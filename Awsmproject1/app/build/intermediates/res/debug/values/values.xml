@@ -183,7 +183,7 @@
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="android:colorPrimary">#ff206af3</item>
+
     </style>
     <!-- From: file:/C:/Projects/ProjectStore/working/Awsmproject1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>

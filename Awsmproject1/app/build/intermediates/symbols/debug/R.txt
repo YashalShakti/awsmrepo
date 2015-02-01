@@ -388,15 +388,12 @@ int id activity_chooser_view_content 0x7f080021
 int id always 0x7f080016
 int id backspace 0x7f080041
 int id beginning 0x7f080013
-int id button 0x7f08005a
 int id button0 0x7f080049
 int id button1 0x7f080042
 int id button10 0x7f080050
 int id button11 0x7f080051
 int id button12 0x7f080052
 int id button13 0x7f080053
-int id button14 0x7f08005b
-int id button15 0x7f08005c
 int id button2 0x7f080046
 int id button3 0x7f08004a
 int id button4 0x7f080043
@@ -408,6 +405,7 @@ int id button9 0x7f08004c
 int id buttoncall 0x7f08004e
 int id buttonhash 0x7f08004d
 int id buttonstar 0x7f080045
+int id call 0x7f08005a
 int id checkbox 0x7f080029
 int id collapseActionView 0x7f080017
 int id decor_content_parent 0x7f08002f
@@ -426,9 +424,11 @@ int id icon 0x7f080026
 int id ifRoom 0x7f080018
 int id image 0x7f080023
 int id imageView 0x7f080057
+int id images 0x7f08005c
 int id linearLayout1 0x7f08004f
 int id listMode 0x7f080009
 int id list_item 0x7f080025
+int id map 0x7f08005b
 int id middle 0x7f080015
 int id my_recycler_view 0x7f080054
 int id never 0x7f080019

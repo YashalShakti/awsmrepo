@@ -35,7 +35,8 @@
         <activity
             android:name="com.awsm.awsmproject.resultsActivity"
             android:label="@string/title_activity_results"
-            android:parentActivityName="com.awsm.awsmproject.MainActivity" >
+            android:parentActivityName="com.awsm.awsmproject.MainActivity"
+            android:theme="@style/AppTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.awsm.awsmproject.MainActivity" />

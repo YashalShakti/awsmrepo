@@ -87,16 +87,18 @@ activity#com.awsm.awsmproject.resultsActivity
 ADDED from AndroidManifest.xml:35:9
 	android:label
 		ADDED from AndroidManifest.xml:37:13
-	android:parentActivityName
+	android:theme
 		ADDED from AndroidManifest.xml:38:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:39:13
 	android:name
 		ADDED from AndroidManifest.xml:36:13
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from AndroidManifest.xml:39:13
+ADDED from AndroidManifest.xml:40:13
 	android:name
-		ADDED from AndroidManifest.xml:40:17
-	android:value
 		ADDED from AndroidManifest.xml:41:17
+	android:value
+		ADDED from AndroidManifest.xml:42:17
 activity#android.support.v7.widget.TestActivity
 ADDED from com.android.support:recyclerview-v7:21.0.3:18:9
 	android:label
