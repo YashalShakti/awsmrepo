@@ -150,7 +150,7 @@ public class Query {
             // TODO Auto-generated method stub
             super.onPostExecute(result);
             delegate.processFinish(result);
-            MainActivity.STORES=finalArray;
+            resultsActivity.STORES=finalArray;
         }
         public  JSONArray getter()
         {
