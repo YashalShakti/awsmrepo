@@ -28,13 +28,8 @@ public class MainActivity extends Activity implements AsyncResponse{
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-
         String query = "p";
-
         new Query().getAllBrandOutlets().delegate= this;
-        //Getting Stores
-
-
 
 		/*PhNumber = (EditText) findViewById(R.id.enterphonenumber);
         disableSoftInputFromAppearing(PhNumber);*/
