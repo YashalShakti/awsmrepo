@@ -3,6 +3,7 @@ package com.awsm.awsmproject;
 import java.io.InputStream;
 
 import org.json.JSONArray;
+import org.json.JSONException;
 
 import com.awsm.database.Query;
 import com.awsm.database.Query.AsyncResponse;
@@ -16,17 +17,25 @@ import android.text.InputType;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 
 public class MainActivity extends Activity implements AsyncResponse{
 	EditText PhNumber;
-	
+	public static JSONArray STORES;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
+
+        String query = "p";
+
+        new Query().getAllBrandOutlets().delegate= this;
+        //Getting Stores
+
+
+
 		/*PhNumber = (EditText) findViewById(R.id.enterphonenumber);
         disableSoftInputFromAppearing(PhNumber);*/
 	}
@@ -70,11 +79,19 @@ public class MainActivity extends Activity implements AsyncResponse{
 
 	public void select(View v)
 	{
+
+
         Intent i = new Intent(this,resultsActivity.class);
+        Bundle sendBun = new Bundle();
         startActivity(i);
-		String query = "p";
-		new Query().getSuggestionsForSearchString(query).delegate= this;
+
+
+
 	}
+    public void getAllBrandOutlets(View v)
+    {
+        new Query().getAllBrandOutlets().delegate= this;
+    }
 
 
 	@Override
